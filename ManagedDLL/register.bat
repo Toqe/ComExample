@@ -1,5 +1,6 @@
 ﻿@echo off
 setlocal
+cd %~dp0
 
 echo Checking administrative permissions.
 net session >nul 2>nul
