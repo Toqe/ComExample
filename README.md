@@ -7,6 +7,7 @@ This is a slightly modified version of the Microsoft article [How to call a mana
 * Open a Visual Studio Command Prompt with "Run as Adminstrator". Elevated permissions are required for the registration of the COM DLL.
 * Change directory to your development folder, for example `cd /d d:\dev`
 * `git clone https://github.com/Toqe/ComExample.git`
+* `cd ComExample.git`
 * `msbuild ManagedDLL.sln`
 * `ManagedDLL\register.bat`
 * `msbuild CPPClient.sln`
